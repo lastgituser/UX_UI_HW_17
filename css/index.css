@@ -154,12 +154,12 @@ header {
 
 .degree {
     position: absolute;
-    top: min(70vh, 70vw);
+    top: min(73vh, 74vw);
     left: 5vw;
 }
 
 .gt-logo {
-    width: 20vw;
+    width: 15vw;
 }
 
 .degree-description {
