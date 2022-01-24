@@ -1,0 +1,235 @@
+body {
+    background-color: #101820;
+}
+
+.color-primary {
+    color: #101820;
+}
+
+.color-secondary {
+    color: #FFFFFF;
+}
+
+.color-accent {
+    color: #FEE715;
+}
+
+h1 {
+    font-family: 'IBM Plex Mono', monospace;
+    font-weight: 700;
+    font-size: 45px;
+}
+
+h2 {
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 64.7px;
+}
+
+h3 {
+    font-family: 'IBM Plex Mono', monospace;
+    font-weight: 700;
+    font-size: 14px;
+}
+
+h4 {
+    font-family: 'IBM Plex Mono', monospace;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+p {
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22.7px;
+}
+
+/* Header Styles */
+header {
+    margin: 2vh 5vw;
+    width: auto;
+    height: 5vh;
+}
+
+.hero {
+    height: 90vh;
+}
+
+.img-logo {
+    height: 5vh;
+    width: 5vw;
+    float: left;
+}
+
+.header-link {
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 48.6px;
+    text-decoration: none;
+    float: right;
+    color: #FEE715;
+}
+
+.name {
+    position: absolute;
+    left: 5vw;
+    top: 10vh;
+    width: auto;
+}
+
+/* Title Styles */
+.firstname {
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 700;
+    font-size: 100px;
+    line-height: 100px;
+    color: #FEE715;
+}
+
+.lastname {
+    position: relative;
+    left: 1vw;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 700;
+    font-size: 70px;
+    color: #FEE715;
+}
+
+.uxui {
+    position: relative;
+    font-family: 'IBM Plex Mono', monospace;
+    font-weight: 100;
+    font-size: 65px;
+    top: -30px;
+    color: #FFFFFF;
+}
+
+.developer {
+    position: relative;
+    left: 1vw;
+    font-family: 'IBM Plex Mono', monospace;
+    font-weight: 100;
+    font-size: 30px;
+    top: -30px;
+    color: #FFFFFF;
+}
+
+/* Mockup Styles */
+
+.mockups {
+    position: absolute;
+    right: 5vw;
+    width: 40vw;
+    top: 10vh;
+    text-align: right;
+}
+
+.mockup1 {
+    width: 16vw;
+    height: 32vw;
+}
+
+.mockup2 {
+    width: 15vw;
+    height: 30vw;
+}
+
+.cta {
+    position: absolute;
+    left: 5vw;
+    top: min(40vh, 50vw);
+    background-color: #FEE715;
+    color: #101820;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 48.6px;
+}
+
+.degree {
+    position: absolute;
+    top: min(70vh, 70vw);
+    left: 5vw;
+}
+
+.gt-logo {
+    width: 20vw;
+}
+
+.degree-description {
+    color: #FFFFFF;
+    font-family: 'IBM Plex Mono', monospace;
+    font-weight: 100;
+    font-size: 40px;
+}
+
+.experience {
+    position: absolute;
+    top: min(78vh, 75vw);
+    left: 30vw;
+    width: max(20vh, 25vw);
+}
+
+.exp-div {
+    position: relative;
+    display: inline-block;
+    width: max(6vh, 10vw);
+}
+
+.img-casestudy {
+    width: max(4vh, 6vw);
+    filter: invert(1.0);
+}
+
+.img-devexp {
+    width: max(4vh, 6vw);
+    filter: invert(1.0);
+}
+
+.exp-num {
+    display: inline;
+    color: #FFFFFF;
+    top: -10px;
+}
+
+.exp-desc {
+    display: inline-block;
+    position: relative;
+    left: 1vw;
+    color: #FFFFFF;
+}
+
+.whoami {
+    display: block;
+    position: absolute;
+    right: 5vw;
+    top: min(70vh, 70vw);
+    color: #FFFFFF;
+    width: 40vw;
+}
+
+.whoami-desc {
+    position: relative;
+    top: -30px;
+}
+
+.skills-icons {
+    display: block;
+    position: absolute;
+    top: min(75vh, 75vw);
+    right: 5vw;
+}
+
+.skill-icon {
+    filter: invert(1.0);
+    display: inline-block;
+    width: 3vw;
+    height: 3vw;
+    margin: 0vw 1vw;
+}
