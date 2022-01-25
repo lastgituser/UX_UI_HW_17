@@ -54,7 +54,8 @@ header {
 }
 
 .hero {
-    height: 90vh;
+    height: min(80vw, 90vh);
+    margin: 0 5vw;
 }
 
 .img-logo {
@@ -232,4 +233,40 @@ header {
     width: 3vw;
     height: 3vw;
     margin: 0vw 1vw;
+}
+
+.belowthefold {
+    margin: 0 5vw;
+}
+
+.heading-casestudies {
+    color: #FFFFFF;
+}
+
+.case-study {
+    display: inline-block;
+    width: 90vw;
+    margin-top: 1vh;
+}
+
+.case-study-img {
+    display: inline-block;
+    width: 43vw;
+    border-radius: 20px;
+}
+
+.case-study-text {
+    position: relative;
+    display: inline-block;
+    vertical-align: top;
+    margin: 4vh 8vw;
+    width: 28vw;
+}
+
+.case-study-title {
+    color: #FEE715;
+}
+
+.case-study-desc {
+    color: #FFFFFF;
 }
