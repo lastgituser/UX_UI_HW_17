@@ -133,7 +133,7 @@ header {
 }
 
 .mockup2 {
-    width: 15vw;
+    width: 14vw;
     height: 30vw;
 }
 
@@ -209,7 +209,7 @@ header {
     display: block;
     position: absolute;
     right: 5vw;
-    top: min(70vh, 70vw);
+    top: min(75vh, 71vw);
     color: #FFFFFF;
     width: 43vw;
 }
@@ -222,7 +222,7 @@ header {
 .skills-icons {
     display: block;
     position: absolute;
-    top: min(75vh, 75vw);
+    top: min(80vh, 76vw);
     right: 5vw;
 }
 
