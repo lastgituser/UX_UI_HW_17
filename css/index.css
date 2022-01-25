@@ -223,7 +223,7 @@ header {
 .skills-icons {
     display: block;
     position: absolute;
-    top: min(80vh, 76vw);
+    top: min(78vh, 76vw);
     right: 5vw;
 }
 
@@ -246,20 +246,21 @@ header {
 .case-study {
     display: inline-block;
     width: 90vw;
-    margin-top: 1vh;
+    margin-top: 1vw;
 }
 
 .case-study-img {
     display: inline-block;
     width: 43vw;
     border-radius: 20px;
+    vertical-align: middle;
 }
 
 .case-study-text {
     position: relative;
     display: inline-block;
     vertical-align: top;
-    margin: 4vh 8vw;
+    margin: 4vw 8vw;
     width: 28vw;
 }
 
@@ -269,4 +270,142 @@ header {
 
 .case-study-desc {
     color: #FFFFFF;
+}
+
+.heading-skills {
+    color: #FFFFFF;
+}
+
+.skills-img {
+    position: relative;
+    display: inline-block;
+    width: 6vw;
+    top: 2vw;
+}
+
+.skills-subsection {
+    display: inline-block;
+    width: 24vw;
+    margin: 0 1vw;
+    color: #FFFFFF;
+    vertical-align: top;
+}
+
+.skills-subsection-title {
+    margin: 0;
+    height: 40px;
+    vertical-align: top;
+}
+
+.letsconnect {
+    vertical-align: middle;
+    margin-top: 5vw;
+    height: 15vw;
+}
+
+.heading-letsconnect {
+    color: #FFFFFF;
+    float: left;
+}
+
+.letsconnect-link {
+    float: right;
+    margin-top: 4vw;
+    margin-left: 2vw;
+}
+
+.letsconnect-img {
+    height: 2vw;
+    width: 2vw;
+}
+
+.letsconnect-title {
+    margin: 0;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+#img-github {
+    filter: invert(1.0);
+}
+
+footer {
+    background-color: #FFFFFF;
+    height: 50vw;
+}
+
+.footer-links {
+    display: block;
+    height: 44vw;
+    width: 100vw;
+}
+
+#social {
+    display: inline-block;
+    position: relative;
+    vertical-align: top;
+    left: 5vw;
+    top: 5vw;
+}
+
+#contact {
+    display: inline-block;
+    position: relative;
+    left: 15vw;
+    top: 5vw;
+    vertical-align: top;
+}
+
+#credits {
+    display: inline-block;
+    position: relative;
+    left: 25vw;
+    top: 5vw;
+    vertical-align: top;
+}
+
+.footer-heading {
+    color: #101820;
+    margin: 0;
+}
+
+.footer-link {
+    text-decoration: none;
+    color: #101820;
+}
+
+.footer-link-text {
+    margin: 0;
+}
+
+.footer-email {
+    display: block;
+    position: relative;
+    left: 5vw;
+}
+
+.footer-social {
+    display: inline-block;
+    position: relative;
+    left: 30vw;
+    top: -5vw;
+}
+
+.footer-copyright {
+    display: inline-block;
+    position: relative;
+    bottom: 5vw;
+    left: 40vw;
+}
+
+.footer-social-link {
+    display: inline-block;
+    margin: 0 2vw;
+    height: 3vw;
+    text-decoration: none;
+}
+
+.footer-social-img {
+    height: 3vw;
+    width: 3vw;
 }
